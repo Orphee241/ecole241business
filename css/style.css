@@ -80,7 +80,19 @@
     font-weight: normal;
     border-radius: 0px;
 }
-
+/* Bouton Decouvrir et s'inscrire */
+.discover{
+    background-color: #003366ff;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+}
+.signup{
+background-color: white;
+color: #003366ff;
+display: inline-block;
+border-radius: 4px;
+}
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
@@ -103,7 +115,8 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    /* color: var(--primary); */
+    color: #003366ff;
 }
 
 @media (max-width: 991.98px) {
@@ -437,4 +450,21 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+        display: block;
+    border-radius: 4px;
+}
+
+/* En savoir plus */
+.readmore{
+    background-color: #003366ff;
+    color: white;
+    font-weight: normal;
+    display: inline-block;
+    border-radius: 4px;
+}
+.readmore:hover{
+    background-color: #003366ff;
+    color: white;
+    font-weight: normal;
+
 }
