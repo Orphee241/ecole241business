@@ -93,7 +93,12 @@ color: #003366ff;
 display: inline-block;
 border-radius: 4px;
 }
-
+.discover:hover{
+    color: white;
+}
+.signup:hover{
+    color: #003366ff;
+}
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;
@@ -273,7 +278,17 @@ border-radius: 4px;
 
 /*** Service ***/
 .service-item {
-    background: var(--light);
+    /* background: var(--light); */
+    background-color: #003366ff;
+    color: white;
+    transition: .5s;
+    border-radius: 4px;
+    height: 100%;
+}
+.service-item h5{
+    /* background: var(--light); */
+
+    color: white;
     transition: .5s;
 }
 
