@@ -328,7 +328,12 @@ border-radius: 4px;
 }
 
 
-/*** Testimonial ***/
+/*** Ingenieur Logiciel ***/
+
+.bleu{
+    position: relative;
+    top: 80px;
+}
 .testimonial-carousel::before {
     position: absolute;
     content: "";
